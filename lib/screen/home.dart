@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  static const key = 'AIzaSyAJa7cv5o5ak4_2fFrd6o7g7NrZ6SvxgjY';
+  static const key = '';
   final model = GenerativeModel(model: 'gemini-pro', apiKey: key);
   TextEditingController Start = TextEditingController();
   List<Message> chatlist = [];
